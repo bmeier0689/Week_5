@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style_PT2.css">
+    <script defer src="script_PT2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Nav Bar -->
+
+        <div class="nav">
+            <h1>Network</h1>
+        </div>
+
+        <!-- Your Feed -->
+        <h1 class="feed">Your Feed</h1>
+
+        <div class="feed-container">
+
+            <!-- Main User -->
+            <div class="user-left">
+                <img src="headshot.jpg" alt="my headshot">
+                <a href="#">Change avatar</a>
+                <h1>Brad Meier</h1>
+            </div>
+
+            <!-- Other Users -->
+            <div id="user-right">
+                <div class="user-box">
+                    <div class="top">
+                        <h2 class="name">Neil M</h2>
+                        <div class="likes">
+                            <span id="counter1">9 like(s)</span>
+                            <button onclick="addLike1(this)">Like</button>
+                        </div>
+                    </div>
+                        <p class="filler">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+                <div class="user-box">
+                    <div class="top">
+                        <h2 class="name">Nichole K</h2>
+                        <div class="likes">
+                            <span id="counter2">12 like(s)</span>
+                            <button onclick="addLike2(this)">Like</button>
+                        </div>
+                    </div>
+                        <p class="filler">Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+                <div class="user-box">
+                    <div class="top">
+                        <h2 class="name">Jim R</h2>
+                        <div class="likes">
+                            <span id="counter3">20 like(s)</span>
+                            <button onclick="addLike3(this)">Like</button>
+                        </div>
+                    </div>
+                        <p class="filler">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
